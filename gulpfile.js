@@ -129,7 +129,7 @@ gulp.task('watch', function() {
 
 	gulp.watch(paths.styles.src, ['styles']);
 
-	gulp.watch(paths.images.src, ['images'])
+	gulp.watch(paths.images.src, ['images']);
 		// .on('change', browserSync.reload);
 
 	gulp.watch(paths.scripts.src + '/**/*.js', ['plugins.jshint']);
